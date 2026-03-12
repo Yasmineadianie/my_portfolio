@@ -1,0 +1,11 @@
+.footer {
+  background:black;
+  color: #bbb;
+  text-align: center;
+  padding: 2.5rem 5%;
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+}
+.footer span {
+  color: red;
+}
