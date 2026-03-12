@@ -27,7 +27,6 @@ const TECH_SKILLS = [
   { name: "VS Code",    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
 ];
 
-const TICKER_SKILLS = [...TECH_SKILLS, ...TECH_SKILLS]; 
 
 const CONTENT = {
   en: {
@@ -236,9 +235,6 @@ function Reveal({ children, delay = 0, className = "" }) {
 
  const MiPortfolio = () => {
   const [lang, setLang] = useState("fr");
-  const [copied, setCopied] = useState(false);
- 
-
   const t = CONTENT[lang];
 
 

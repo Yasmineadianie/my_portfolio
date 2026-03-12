@@ -2,14 +2,21 @@ import {React, useState}from 'react'
 import './Navbar.css'
 
 
+export const Navbar = ({ CONTENT, lang, setLang }) => {
 
-export const Navbar = ( {CONTENT,lang, setLang}) => {
+  const [scrolled, setScrolled] = useState(false);
+  const t = CONTENT[lang];
+
+  useEffect(() => {
+    const h = () => setScrolled(window.scrollY > 40);
+    window.addEventListener("scroll", h);
+    return () => window.removeEventListener("scroll", h);
+  }, []);
+
+  const scrollTo = (id) =>
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
 
-const [scrolled] = useState(false);
-  const t = CONTENT[lang]
- const scrollTo = (id) =>
- document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
   return (
     <>

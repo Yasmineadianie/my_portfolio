@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 
-export const About = ({CONTENT, t, PHOTO}) => {
+export const About = ({t, PHOTO}) => {
 
    const [copied, setCopied] = useState(false);
 

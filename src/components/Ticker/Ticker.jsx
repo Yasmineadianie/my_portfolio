@@ -1,17 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Ticker.css'
-
-const initialValues = {
-  name: "",
-  email: "",
-  message: "" 
-}
-
 
 
 export const Ticker = ({TECH_SKILLS}) => {
 const TICKER_SKILLS = [...TECH_SKILLS, ...TECH_SKILLS];
-//const [form, setForm] = useState(initialValues);
+
 
   return (
    <div className="ticker-wrap">
