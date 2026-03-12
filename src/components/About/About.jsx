@@ -9,8 +9,10 @@ export const About = ({CONTENT, t, PHOTO}) => {
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
+
   function useInView(ref) {
   const [v, setV] = useState(false);
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const o = new IntersectionObserver(([e]) => { if (e.isIntersecting) setV(true); }, { threshold: 0.1 });
     if (ref.current) o.observe(ref.current);

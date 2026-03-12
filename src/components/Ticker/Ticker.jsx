@@ -11,7 +11,7 @@ const initialValues = {
 
 export const Ticker = ({TECH_SKILLS}) => {
 const TICKER_SKILLS = [...TECH_SKILLS, ...TECH_SKILLS];
-const [form, setForm] = useState(initialValues);
+//const [form, setForm] = useState(initialValues);
 
   return (
    <div className="ticker-wrap">

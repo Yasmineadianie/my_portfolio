@@ -6,7 +6,7 @@ import './Navbar.css'
 export const Navbar = ( {CONTENT,lang, setLang}) => {
 
 
-const [scrolled, setScrolled, ] = useState(false);
+const [scrolled] = useState(false);
   const t = CONTENT[lang]
  const scrollTo = (id) =>
  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });

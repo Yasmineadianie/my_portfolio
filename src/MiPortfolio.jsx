@@ -9,7 +9,7 @@ import {ContactForm} from './components/ContactForm/ContactForm'
 const PHOTO = "/yas.jpeg";
 const PHOTO1 = "/avatar.png";
 
-// Devicons CDN icons
+
 const TECH_SKILLS = [
   { name: "React",      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
   { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
@@ -237,27 +237,9 @@ function Reveal({ children, delay = 0, className = "" }) {
  const MiPortfolio = () => {
   const [lang, setLang] = useState("fr");
   const [copied, setCopied] = useState(false);
-  //const [form, setForm] = useState({ name: "", email: "", message: "" });
-  const [sent, setSent] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-  
+ 
+
   const t = CONTENT[lang];
-
-  useEffect(() => {
-    const h = () => setScrolled(window.scrollY > 40);
-    window.addEventListener("scroll", h);
-    return () => window.removeEventListener("scroll", h);
-  }, []);
-
-  const copyEmail = () => {
-    navigator.clipboard.writeText("adianiepene@yahoo.fr");
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
-  //const scrollTo = (id) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-
-
 
 
   return (
@@ -397,7 +379,7 @@ function Reveal({ children, delay = 0, className = "" }) {
         </div>
       </section>
 
-      {/* ── EXPERIENCE ── */}
+
       <section id="experience" style={{ padding: "100px 6%", background: "#fff" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <Reveal>
