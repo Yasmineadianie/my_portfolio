@@ -49,7 +49,7 @@ const CONTENT = {
     expTitle: "My journey",
     contactLabel: "CONTACT",
     contactTitle: "Let's talk",
-    contactText: "Looking for a junior dev opportunity or apprenticeship in Suisse Romande — Lausanne or Geneva. Open to relocation.",
+   contactText: "Looking for a junior dev opportunity or apprenticeship in web development. Open to relocation.",
     copyEmail: "Copy",
     copied: "Copied!",
     sendMsg: "Send message",
@@ -83,7 +83,7 @@ const CONTENT = {
     expTitle: "Mon parcours",
     contactLabel: "CONTACT",
     contactTitle: "Parlons-en",
-    contactText: "À la recherche d'un poste junior ou d'un apprentissage en Suisse Romande — Lausanne ou Genève. Prête à me relocaliser.",
+   contactText: "À la recherche d'un poste junior ou d'un apprentissage en développement web. Ouverte à la relocalisation.",
     copyEmail: "Copier",
     copied: "Copié !",
     sendMsg: "Envoyer",
@@ -93,6 +93,7 @@ const CONTENT = {
     msgPh: "Votre message",
     viewCV: "Voir CV",
     viewCode: "Code",
+    live_demo: "LiveDemo",
     eduLabel: "FORMATION",
    eduTitle: "Mon parcours académique",
    errorMsg: "Une erreur s'est produite. Réessayez.",
@@ -111,6 +112,7 @@ const PROJECTS = [
   emoji: "🌱",
   bg: "#e8f5e9",
   github: "https://github.com/Yasmineadianie/CircularScore-professional_team_project",
+  live_demo: "https://www.youtube.com/watch?v=qmeBNp-i9XM&t=2072s"
 },
   
 
@@ -141,6 +143,7 @@ const PROJECTS = [
     emoji: "🎮",
     bg: "#e8f0e8",
     github: "https://github.com/Yasmineadianie/TheFunCorner-project",
+    live_demo: "https://www.youtube.com/watch?v=1il5BMUOyug&t=67s",
   },
 ];
 
@@ -242,7 +245,9 @@ function Reveal({ children, delay = 0, className = "" }) {
   return (
 
     <div style={{ fontFamily: "'Georgia','Times New Roman',serif", background: "#f5f0eb", color: "#1a1a1a", minHeight: "100vh" }}>
+
    <Navbar CONTENT={CONTENT} lang={lang} setLang={setLang}/>
+
    <section id="hero" style={{ minHeight: "100vh", display: "flex", alignItems: "center", padding: "100px 6% 60px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto", width: "100%", display: "flex", alignItems: "center", gap: "5rem", flexWrap: "wrap" }} className="hero-grid">
           <div style={{ flex: 1, minWidth: 280 }}>
@@ -283,8 +288,10 @@ function Reveal({ children, delay = 0, className = "" }) {
           </div>
         </div>
       </section>
-<Ticker TECH_SKILLS={TECH_SKILLS}/>
-<About t={t} PHOTO={PHOTO}/>
+
+         <Ticker TECH_SKILLS={TECH_SKILLS}/>
+
+        <About t={t} PHOTO={PHOTO}/>
 
       <section id="skills" style={{ padding: "100px 6%", background: "#fff" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
@@ -368,6 +375,7 @@ function Reveal({ children, delay = 0, className = "" }) {
                       {proj.tags.map(tag => <span key={tag} className="proj-tag">{tag}</span>)}
                     </div>
                     <a href={proj.github} target="_blank" rel="noreferrer" className="proj-link">↗ {t.viewCode}</a>
+                    <a href={proj.live_demo} target="_blank" rel="noreferrer" className="proj-link">↗ {t.live_demo}</a>
                   </div>
                 </div>
               </Reveal>
@@ -399,8 +407,8 @@ function Reveal({ children, delay = 0, className = "" }) {
           </div>
         </div>
       </section>
-      <ContactForm  t={t} />
 
+      <ContactForm  t={t} />
 
    <Footer />
 

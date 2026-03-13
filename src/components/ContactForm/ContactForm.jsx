@@ -87,7 +87,6 @@ const [sent, setSent] = useState(false);
             <form ref={formRef} onSubmit={handleSubmit}
               style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
 
-              {/* ⚠️ Les name= doivent correspondre aux variables de ton template EmailJS */}
               <input
                 className="form-input"
                 name="from_name"
