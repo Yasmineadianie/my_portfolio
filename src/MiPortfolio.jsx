@@ -102,48 +102,58 @@ const CONTENT = {
 
 const PROJECTS = [
   {
-  title: "CircularScore professional team project",
-  date: "02/2026 – Present",
-  desc: {
-    en: "Full-stack platform for tracking corporate Sustainable Development Goals. Team-based project developed with a real-world client.",
-    fr: "Plateforme full-stack de suivi des Objectifs de Développement Durable en entreprise. Projet d'équipe développé avec un client réel."
+    title: 'CircularScore professional team project',
+    date: '02/2026 – Present',
+    desc: {
+      en: 'Full-stack platform for tracking corporate Sustainable Development Goals. Team-based project developed with a real-world client.',
+      fr: "Plateforme full-stack de suivi des Objectifs de Développement Durable en entreprise. Projet d'équipe développé avec un client réel.",
+    },
+    tags: ['React', 'Node.js', 'MySQL', 'Express'],
+    emoji: '🌱',
+    bg: '#e8f5e9',
+    github:
+      'https://github.com/Yasmineadianie/CircularScore-professional_team_project',
+    live_demo: 'https://www.youtube.com/watch?v=qmeBNp-i9XM&t=2072s',
   },
-  tags: ["React", "Node.js", "MySQL", "Express"],
-  emoji: "🌱",
-  bg: "#e8f5e9",
-  github: "https://github.com/Yasmineadianie/CircularScore-professional_team_project",
-  live_demo: "https://www.youtube.com/watch?v=qmeBNp-i9XM&t=2072s"
-},
-  
 
   {
-    title: "Fashion Fwd Picker",
-    date: "2025 – Present",
-    desc: { en: "Outfit recommendation app based on current fashion trends and user preferences.", fr: "Application de recommandation vestimentaire basée sur les tendances et les préférences utilisateur." },
-    tags: ["TypeScript","React", "CSS3", "API","Node.js","MySQL" ],
-    emoji: "👗",
-    bg: "#fdf0f0",
-    github: "https://github.com/Yasmineadianie/FASHION_FWD_PICKER",
+    title: 'Fashion Fwd Picker',
+    date: '2025 – Present',
+    desc: {
+      en: 'Outfit recommendation app based on current fashion trends and user preferences.',
+      fr: 'Application de recommandation vestimentaire basée sur les tendances et les préférences utilisateur.',
+    },
+    tags: ['TypeScript', 'React', 'CSS3', 'API', 'Node.js', 'MySQL'],
+    emoji: '👗',
+    bg: '#fdf0f0',
+    github: 'https://github.com/Yasmineadianie/FASHION_FWD_PICKER',
   },
   {
-    title: "DevConnect",
-    date: "12/2025 – Present",
-    desc: { en: "Social networking platform with real-time weather, character exploration and user authentication.", fr: "Plateforme de réseau social avec météo temps réel, exploration de personnages et authentification." },
-    tags: ["React", "Node.js", "MySQL", "REST API"],
-    emoji: "🔗",
-    bg: "#f0e8f5",
-    github: "https://github.com/Yasmineadianie/DevConnect_Project",
+    title: 'DevConnect',
+    date: '12/2025 – Present',
+    desc: {
+      en: 'Social networking platform with real-time weather, character exploration and user authentication.',
+      fr: 'Plateforme de réseau social avec météo temps réel, exploration de personnages et authentification.',
+    },
+    tags: ['React', 'Node.js', 'MySQL', 'REST API'],
+    emoji: '🔗',
+    bg: '#f0e8f5',
+    github: 'https://github.com/Yasmineadianie/DevConnect_Project',
+    live_demo: 'https://dev-connect-project-flax.vercel.app',
   },
-  
+
   {
-    title: "TheFunCorner",
-    date: "11/2025",
-    desc: { en: "Social network for gamers with Node.js/Express back-end and MySQL database.", fr: "Réseau social pour gamers avec back-end Node.js/Express et base de données MySQL." },
-    tags: ["Node.js", "Express", "MySQL"],
-    emoji: "🎮",
-    bg: "#e8f0e8",
-    github: "https://github.com/Yasmineadianie/TheFunCorner-project",
-    live_demo: "https://www.youtube.com/watch?v=1il5BMUOyug&t=67s",
+    title: 'TheFunCorner',
+    date: '11/2025',
+    desc: {
+      en: 'Social network for gamers with Node.js/Express back-end and MySQL database.',
+      fr: 'Réseau social pour gamers avec back-end Node.js/Express et base de données MySQL.',
+    },
+    tags: ['Node.js', 'Express', 'MySQL'],
+    emoji: '🎮',
+    bg: '#e8f0e8',
+    github: 'https://github.com/Yasmineadianie/TheFunCorner-project',
+    live_demo: 'https://www.youtube.com/watch?v=1il5BMUOyug&t=67s',
   },
 ];
 
