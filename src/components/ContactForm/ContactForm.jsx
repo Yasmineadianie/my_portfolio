@@ -61,7 +61,7 @@ const [sent, setSent] = useState(false);
           </p>
           {[
             { icon: "✉", val: "adianiepene@yahoo.fr",          href: "mailto:adianiepene@yahoo.fr" },
-            { icon: "☎", val: "+34 664 584 141",                href: "tel:+34664584141" },
+            { icon: "☎", val: "+41 076 580 33 29",                href: "tel:+34664584141" },
             { icon: "in", val: "linkedin.com/in/yasmine-adianie", href: "https://linkedin.com/in/yasmine-adianie" },
             { icon: "GH", val: "github.com/Yasmineadianie",       href: "https://github.com/Yasmineadianie" },
           ].map(c => (
