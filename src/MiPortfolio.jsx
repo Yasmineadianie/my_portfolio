@@ -30,13 +30,13 @@ const TECH_SKILLS = [
 
 const CONTENT = {
   en: {
-    subtitle: "Junior Full-Stack Developer · 🌍 Open to relocation",
+    subtitle: "Full-Stack Developer · Casino du Lac, Geneva 🇨🇭",
     tagline: "Ex-hospitality team leader. Now I craft code instead of menus.",
-    available: "Available to join your team in 2026",
+    available: "Full-Stack Developer at Casino du Lac · Based in Geneva",
     langs: "LANGUAGES SPOKEN",
     aboutLabel: "ABOUT",
     aboutTitle: "Who am I?",
-    aboutText: "Junior Full-Stack Web Developer passionate about building modern web applications. Trained at SocraTech Academy, I'm as comfortable with front-end as back-end. Former luxury hospitality team leader, I bring rigour, communication, and adaptability to every environment. Trilingual — French, Spanish, English.",
+    aboutText: "Full-Stack Developer at Casino du Lac, Geneva. Trained at SocraTech Academy (React, Node.js, MySQL), I build modern web applications with a strong focus on clean code and user experience. Former luxury hospitality team leader, I bring rigour, communication and adaptability. Trilingual — French, Spanish, English.",
     skillsLabel: "SKILLS",
     skillsTitle: "What I bring",
     techSkills: "Technical skills",
@@ -49,7 +49,7 @@ const CONTENT = {
     expTitle: "My journey",
     contactLabel: "CONTACT",
     contactTitle: "Let's talk",
-   contactText: "Looking for a junior dev opportunity or apprenticeship in web development. Open to relocation.",
+    contactText: "Full-Stack Developer at Casino du Lac, based in Geneva. Feel free to reach out for collaborations or opportunities.",
     copyEmail: "Copy",
     copied: "Copied!",
     sendMsg: "Send message",
@@ -59,18 +59,19 @@ const CONTENT = {
     msgPh: "Your message",
     viewCV: "View CV",
     viewCode: "Code",
+    live_demo: "Live Demo",
     eduLabel: "EDUCATION",
-   eduTitle: "My training",
-   errorMsg: "Something went wrong. Please try again.",
+    eduTitle: "My training",
+    errorMsg: "Something went wrong. Please try again.",
   },
   fr: {
-    subtitle: "Développeuse Full-Stack Junior · 🌍 Disponible pour relocalisation",
+    subtitle: "Développeuse Full-Stack · Casino du Lac, Genève 🇨🇭",
     tagline: "Ex-cheffe de rang. Maintenant je prescris du code à la place.",
-    available: "Disponible pour rejoindre votre équipe en 2026",
+    available: "Développeuse Full-Stack au Casino du Lac · Basée à Genève",
     langs: "LANGUES PARLÉES",
     aboutLabel: "À PROPOS",
     aboutTitle: "Qui suis-je ?",
-    aboutText: "Développeuse Full-Stack Junior passionnée par la création d'applications web modernes. Formée à SocraTech Academy, je maîtrise aussi bien le front-end que le back-end. Ancienne responsable d'équipe en hôtellerie de luxe, j'apporte rigueur, communication et adaptabilité. Trilingue — français, espagnol, anglais.",
+    aboutText: "Développeuse Full-Stack au Casino du Lac à Genève. Formée à SocraTech Academy (React, Node.js, MySQL), je crée des applications web modernes avec une attention particulière au code propre et à l'expérience utilisateur. Ancienne responsable d'équipe en hôtellerie de luxe, j'apporte rigueur, communication et adaptabilité. Trilingue — français, espagnol, anglais.",
     skillsLabel: "COMPÉTENCES",
     skillsTitle: "Ce que j'apporte",
     techSkills: "Compétences techniques",
@@ -83,7 +84,7 @@ const CONTENT = {
     expTitle: "Mon parcours",
     contactLabel: "CONTACT",
     contactTitle: "Parlons-en",
-   contactText: "À la recherche d'un poste junior ou d'un apprentissage en développement web. Ouverte à la relocalisation.",
+    contactText: "Développeuse Full-Stack au Casino du Lac, basée à Genève. N'hésitez pas à me contacter pour toute collaboration ou opportunité.",
     copyEmail: "Copier",
     copied: "Copié !",
     sendMsg: "Envoyer",
@@ -93,17 +94,17 @@ const CONTENT = {
     msgPh: "Votre message",
     viewCV: "Voir CV",
     viewCode: "Code",
-    live_demo: "LiveDemo",
+    live_demo: "Démo Live",
     eduLabel: "FORMATION",
-   eduTitle: "Mon parcours académique",
-   errorMsg: "Une erreur s'est produite. Réessayez.",
+    eduTitle: "Mon parcours académique",
+    errorMsg: "Une erreur s'est produite. Réessayez.",
   }
 };
 
 const PROJECTS = [
   {
     title: 'CircularScore professional team project',
-    date: '02/2026 – Present',
+    date: '02/2026',
     desc: {
       en: 'Full-stack platform for tracking corporate Sustainable Development Goals. Team-based project developed with a real-world client.',
       fr: "Plateforme full-stack de suivi des Objectifs de Développement Durable en entreprise. Projet d'équipe développé avec un client réel.",
@@ -111,11 +112,9 @@ const PROJECTS = [
     tags: ['React', 'Node.js', 'MySQL', 'Express'],
     emoji: '🌱',
     bg: '#e8f5e9',
-    github:
-      'https://github.com/Yasmineadianie/CircularScore-professional_team_project',
+    github: 'https://github.com/Yasmineadianie/CircularScore-professional_team_project',
     live_demo: 'https://www.youtube.com/watch?v=qmeBNp-i9XM&t=2072s',
   },
-
   {
     title: 'Fashion Fwd Picker',
     date: '2025 – Present',
@@ -127,10 +126,11 @@ const PROJECTS = [
     emoji: '👗',
     bg: '#fdf0f0',
     github: 'https://github.com/Yasmineadianie/FASHION_FWD_PICKER',
+    live_demo: null,
   },
   {
     title: 'DevConnect',
-    date: '12/2025 – Present',
+    date: '12/2025',
     desc: {
       en: 'Social networking platform with real-time weather, character exploration and user authentication.',
       fr: 'Plateforme de réseau social avec météo temps réel, exploration de personnages et authentification.',
@@ -141,7 +141,6 @@ const PROJECTS = [
     github: 'https://github.com/Yasmineadianie/DevConnect_Project',
     live_demo: 'https://dev-connect-project-flax.vercel.app',
   },
-
   {
     title: 'TheFunCorner',
     date: '11/2025',
@@ -159,18 +158,18 @@ const PROJECTS = [
 
 const EXPERIENCE = [
   {
-    role: { en: "Junior Full-Stack Developer", fr: "Développeuse Full-Stack Junior" },
-    company: "CircularScore",
-    period: "Feb 2026 – Present",
+    role: { en: "Full-Stack Developer", fr: "Développeuse Full-Stack" },
+    company: "Casino du Lac, Genève",
+    period: "May 2026 – Present",
     items: {
-      en: ["React, HTML5, CSS3 in an Agile team", "Node.js, Express, REST API design", "MySQL database development"],
-      fr: ["React, HTML5, CSS3 au sein d'une équipe Agile", "Node.js, Express, conception d'API REST", "Développement et maintenance MySQL"],
+      en: ["Full-stack development in a professional team", "React, Node.js, Express, MySQL", "Agile methodology, Git version control"],
+      fr: ["Développement full-stack au sein d'une équipe professionnelle", "React, Node.js, Express, MySQL", "Méthodologie Agile, gestion de version Git"],
     },
   },
   {
-    role: { en: "Team Leader ", fr: "Team Leader " },
+    role: { en: "Team Leader", fr: "Team Leader" },
     company: "The Boho Club, Marbella",
-    period: "Aug 2024 – Present",
+    period: "Aug 2024 – Apr 2026",
     items: {
       en: ["Supervised luxury hotel staff across multiple service periods", "Staff training, coaching and guest relations"],
       fr: ["Supervision d'équipe en hôtel haut de gamme", "Formation, coaching et gestion des relations clients"],
@@ -384,8 +383,12 @@ function Reveal({ children, delay = 0, className = "" }) {
                     <div style={{ display: "flex", flexWrap: "wrap", gap: ".4rem", marginBottom: "1rem" }}>
                       {proj.tags.map(tag => <span key={tag} className="proj-tag">{tag}</span>)}
                     </div>
-                    <a href={proj.github} target="_blank" rel="noreferrer" className="proj-link">↗ {t.viewCode}</a>
-                    <a href={proj.live_demo} target="_blank" rel="noreferrer" className="proj-link">↗ {t.live_demo}</a>
+                    <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
+                      <a href={proj.github} target="_blank" rel="noreferrer" className="proj-link">↗ {t.viewCode}</a>
+                      {proj.live_demo && (
+                        <a href={proj.live_demo} target="_blank" rel="noreferrer" className="proj-link">▶ {t.live_demo}</a>
+                      )}
+                    </div>
                   </div>
                 </div>
               </Reveal>
@@ -428,5 +431,3 @@ function Reveal({ children, delay = 0, className = "" }) {
 
 
 export default MiPortfolio;
-
-
