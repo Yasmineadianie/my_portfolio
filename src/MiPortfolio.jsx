@@ -16,6 +16,11 @@ const TECH_SKILLS = [
   { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
   { name: "Node.js",    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
   { name: "Express",    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
+  { name: "Azure",    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" },
+{ name: "Docker",   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+{ name: "CosmosDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cosmosdb/cosmosdb-original.svg" },
+{ name: "NoSQL",    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+
   { name: "MySQL",      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
   { name: "HTML5",      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
   { name: "CSS3",       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
@@ -161,10 +166,22 @@ const EXPERIENCE = [
     role: { en: "Full-Stack Developer", fr: "Développeuse Full-Stack" },
     company: "Casino du Lac, Genève",
     period: "May 2026 – Present",
-    items: {
-      en: ["Full-stack development in a professional team", "React, Node.js, Express, MySQL", "Agile methodology, Git version control"],
-      fr: ["Développement full-stack au sein d'une équipe professionnelle", "React, Node.js, Express, MySQL", "Méthodologie Agile, gestion de version Git"],
-    },
+   items: {
+  en: [
+    "Front-end development with React in a professional team",
+    "Back-end with Node.js, NoSQL databases (CosmosDB / Azure)",
+    "Containerisation with Docker",
+    "Game development features",
+    "Agile methodology, Git version control",
+  ],
+  fr: [
+    "Développement front-end React au sein d'une équipe professionnelle",
+    "Back-end Node.js, bases de données NoSQL (CosmosDB / Azure)",
+    "Conteneurisation avec Docker",
+    "Développement de fonctionnalités gaming",
+    "Méthodologie Agile, gestion de version Git",
+  ],
+},
   },
   {
     role: { en: "Team Leader", fr: "Team Leader" },
